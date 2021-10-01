@@ -9,4 +9,6 @@ C programming to simulate a bash shell functionality of the following unix comma
 
 These commands are to be implemented explicitly using C and executed via myshell <br/>
 process. Already existing implementation of these commands in bash such as by using <br/> 
-system() is not used.  Implemented code has 4 to 5 options implementation per command.
+system() is not used.  Implemented code has 4 to 5 options implementation per command.<br/>
+Developed shell also remember the recently used commands. The recently used <br/>
+commands can be available when using UP and DOWN arrows.
