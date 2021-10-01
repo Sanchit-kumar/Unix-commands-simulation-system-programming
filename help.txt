@@ -1,0 +1,33 @@
+
+ -----ls command-------
+ 	// (printing data in 2 columns (except -l) as number of cloumns dynamically changes with terminal window scale)
+ -l use a long listing format
+ -a do not ignore entries starting with .
+ -S sort by file size, largest first
+ -t sort by modification time, newest first
+ 
+ ----grep command------
+ -i ignore case
+ -n line number
+ -r recursive read all files in directory
+ -c count occurance
+ 
+ ----cp command-------
+ -b 	take backup
+ -i 	interactive
+ 	copy the source file to destinatio if not present. If file already exist in destination, then prompt to y/n for overwrite + return 1 if 	coppied successfully
+ -u 	copy only when source is newer than destination (by checking last modification time)
+ -f 	update the destinatio file if access allow, otherwise delete it and copy the data of source file	
+ 
+ ----mv command-------
+ -b	take backup of the file, take backup of destination and make sourse as destination file
+ -i	move directly if not file at destination present, otherwise prompt (y/n)
+ -u	copy only when source is newer than destination (by checking last modification time)
+ -f	move forcefully
+ 
+ ----ps command-------
+ -U or u	search process for particular username
+ -C		search process for particular command
+ -A or-e	display all process present in the system
+ -p 		search process for particular pid
+ 		
